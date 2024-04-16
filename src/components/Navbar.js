@@ -10,6 +10,7 @@ const Navbar = () => {
             <Link className='menulist'>Portfolio</Link>
             <Link className='menulist'>Clients</Link>
         </div>
+        <button className='desktopMenuBtn'>Contact Me</button>
     </nav>
   )
 }

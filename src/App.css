@@ -12,5 +12,70 @@
 }
 .menulist{
   margin: 1rem;
+  color: white;
   cursor: pointer;
+}
+.menulist:hover{
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.desktopMenuBtn {
+  background: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0.3rem;
+  border-radius: 2rem;
+}
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.introcontent{
+  height: 100vh;
+  width: 100vh;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello{
+  font-size: 1.5rem;
+  font-weight: 100
+}
+.introname{
+  color: yellow;
+}
+.intropara{
+  font-size: medium;
+  font-weight: 100;
+}
+
+.btn{
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width:840px) {
+  .introcontent{
+    font-size: 10vw;
+  }
+  .hello{
+    font-size: 4.5vw;
+  }
 }
