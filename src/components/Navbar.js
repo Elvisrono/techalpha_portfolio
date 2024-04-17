@@ -5,12 +5,14 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
         <div className='desktopMenu'>
-            <Link className='menulist'>Home</Link>
-            <Link className='menulist'>About</Link>
-            <Link className='menulist'>Portfolio</Link>
-            <Link className='menulist'>Clients</Link>
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='menulist'>Home</Link>
+            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className='menulist'>About</Link>
+            <Link activeClass='active' to='works' spy={true} smooth={true} offset={-100} duration={500} className='menulist'>Portfolio</Link>
+            <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-100} duration={500} className='menulist'>Clients</Link>
         </div>
-        <button className='desktopMenuBtn'>Contact Me</button>
+        <button className='desktopMenuBtn' onClick={() => {
+          document.getElementById('contact').scrollIntoView ({behavior: 'smooth'}) 
+        }}>Contact Me</button>
     </nav>
   )
 }
