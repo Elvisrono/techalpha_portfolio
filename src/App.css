@@ -6,7 +6,7 @@
   padding: 1rem 2 rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 3;
@@ -15,6 +15,15 @@
   margin: 1rem;
   color: white;
   cursor: pointer;
+}
+.bg{
+  position: absolute;
+  top: 7rem;
+  right: 0;
+  z-index: -3;
+  object-fit: cover;
+  height: 100vh;
+  
 }
 .menulist:hover{
   color: yellow;
@@ -51,6 +60,7 @@
   justify-content: center;
 }
 
+
 .hello{
   font-size: 1.5rem;
   font-weight: 100
@@ -86,7 +96,7 @@
 .skilltitle{
   font-size: 3rem;
   font-weight: 600;
-  padding-top: 3rem;
+  padding-top: 8rem;
   margin-bottom: 1.5rem; 
 }
 .skilldesc{
@@ -175,11 +185,74 @@
   font-weight: 300;
   font-size: small;
 }
+#works{
+  margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.workstitle{
+  margin: 1rem 0; 
+  font-size: 3rem
+}
+.worksimages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 60rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+.worksimage{
+  object-fit: cover;
+  height: 15rem;
+  width: 15rem;
+  margin: 0.5rem;
+}
+.workbtn{
+  margin: 3rem 0;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  background: white;
+  font-size: 1rem;
+}
+.worksdesc{
+  font-weight: 300;
+  font-size: 1rem ;
+}
+  
 @media screen and (max-width:840px) {
   .introcontent{
     font-size: 10vw;
   }
+  .bg{
+    right: -5vw;
+  }
   .hello{
     font-size: 4.5vw;
+  }
+  .worksimage{
+    height: 45vw;
+  }
+}
+@media screen and (max-width:720px) {
+  .skillbartext>p{
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width:480px){
+  .skillbartext>p {
+    font-size: 3vw;
+  }
+  .skillbartext>h2{
+    font-size: 5vw;
   }
 }

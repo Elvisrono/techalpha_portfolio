@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 const Navbar = () => {
   return (
     <nav className='navbar'>
+      <img alt=''/>
         <div className='desktopMenu'>
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='menulist'>Home</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className='menulist'>About</Link>
@@ -13,6 +14,7 @@ const Navbar = () => {
         <button className='desktopMenuBtn' onClick={() => {
           document.getElementById('contact').scrollIntoView ({behavior: 'smooth'}) 
         }}>Contact Me</button>
+        <img alt=''/>
     </nav>
   )
 }

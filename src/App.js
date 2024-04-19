@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Inro from './components/Inro';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
+import Works from './components/Works';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Inro />
       <Skills />
+      <Works />
       <Contact />
       <Footer />
     </div>
