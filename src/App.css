@@ -20,9 +20,9 @@
   position: absolute;
   top: 7rem;
   right: 0;
-  z-index: -3;
   object-fit: cover;
   height: 100vh;
+  padding-right: -10rem;
   
 }
 .menulist:hover{
@@ -233,9 +233,7 @@
   .introcontent{
     font-size: 10vw;
   }
-  .bg{
-    right: -5vw;
-  }
+ 
   .hello{
     font-size: 4.5vw;
   }
@@ -251,6 +249,10 @@
 @media screen and (max-width:480px){
   .skillbartext>p {
     font-size: 3vw;
+  }
+  .bg{
+    right: 5;
+
   }
   .skillbartext>h2{
     font-size: 5vw;
