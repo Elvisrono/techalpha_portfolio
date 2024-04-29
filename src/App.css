@@ -22,7 +22,7 @@
   right: 0;
   object-fit: cover;
   height: 100vh;
-  padding-right: -10rem;
+  z-index: -2;
   
 }
 .menulist:hover{
@@ -233,6 +233,9 @@
   .introcontent{
     font-size: 10vw;
   }
+  .bg{
+    right: -30vw;
+  }
  
   .hello{
     font-size: 4.5vw;
@@ -250,10 +253,7 @@
   .skillbartext>p {
     font-size: 3vw;
   }
-  .bg{
-    right: 5;
-
-  }
+ 
   .skillbartext>h2{
     font-size: 5vw;
   }
