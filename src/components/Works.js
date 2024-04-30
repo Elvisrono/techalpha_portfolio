@@ -14,12 +14,12 @@ const Works = () => {
       I take pride in paying attention to the smallest details and provide more proffesional work.
     </span>
     <div className='worksimages'>
-      <img src={pic1} alt='pi' className='worksimage'/>
-      <img src={pic2} alt='pi' className='worksimage'/>
-      <img src={pic3} alt='pi' className='worksimage'/>
-      <img src={pic4} alt='pi' className='worksimage'/>
-      <img src={pic5} alt='pi' className='worksimage'/>
-      <img src={pic6} alt='pi' className='worksimage'/>
+      <a href='https://sidebar-seven-inky.vercel.app/'><img src={pic1} alt='pi' className='worksimage'/></a>
+      <a href='https://tech-alpha-agecalculator.vercel.app/'><img src={pic2} alt='pi' className='worksimage'/></a>
+      <a><img src={pic3} alt='pi' className='worksimage'/></a>
+      <a><img src={pic4} alt='pi' className='worksimage'/></a>
+      <a><img src={pic5} alt='pi' className='worksimage'/></a>
+      <a><img src={pic6} alt='pi' className='worksimage'/></a>
     </div>
     <button className='workbtn'>See More</button>
   </section>
