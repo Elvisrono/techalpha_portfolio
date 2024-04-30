@@ -10,7 +10,7 @@ const Skills = () => {
         <div className='skillbar'>
             <div className='skillbartext'>
                 <h2>UI/UX Design</h2>
-                <p>I design an interactive UI </p>
+                <p>I use templates to design responsive website </p>
             </div>
         </div>
         <div className='skillbar'>
@@ -21,8 +21,8 @@ const Skills = () => {
         </div>
         <div className='skillbar'>
             <div className='skillbartext'>
-                <h2>UI/UX Design</h2>
-                <p>I design an interactive UI </p>
+                <h2>Frontend developer</h2>
+                <p>I create responsive websites </p>
             </div>
         </div>
 

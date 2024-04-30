@@ -14,14 +14,14 @@ const Works = () => {
       I take pride in paying attention to the smallest details and provide more proffesional work.
     </span>
     <div className='worksimages'>
-      <a href='https://sidebar-seven-inky.vercel.app/'><img src={pic1} alt='pi' className='worksimage'/></a>
-      <a href='https://tech-alpha-agecalculator.vercel.app/'><img src={pic2} alt='pi' className='worksimage'/></a>
-      <a><img src={pic3} alt='pi' className='worksimage'/></a>
-      <a><img src={pic4} alt='pi' className='worksimage'/></a>
-      <a><img src={pic5} alt='pi' className='worksimage'/></a>
-      <a><img src={pic6} alt='pi' className='worksimage'/></a>
+      <a href='https://sidebar-seven-inky.vercel.app/' target="_blank"><img src={pic1} alt='pi' className='worksimage'/></a>
+      <a href='https://tech-alpha-agecalculator.vercel.app/' target="_blank"><img src={pic2} alt='pi' className='worksimage'/></a>
+      <a href='https://tech-alpha-todolist.vercel.app/' target="_blank"><img src={pic3} alt='pi' className='worksimage'/></a>
+      <a href='https://shopping-cart-two-gules.vercel.app/' target="_blank"><img src={pic4} alt='pi' className='worksimage'/></a>
+      <a href='https://recipe-app-five-amber.vercel.app/' target="_blank"><img src={pic5} alt='pi' className='worksimage'/></a>
+      <a href='https://article254.vercel.app/' target="_blank"><img src={pic6} alt='pi' className='worksimage'/></a>
     </div>
-    <button className='workbtn'>See More</button>
+    <button className='workbtn'><a href='https://github.com/Elvisrono' target='_blank'>See More</a></button>
   </section>
   )
 }
